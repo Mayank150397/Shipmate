@@ -1,0 +1,50 @@
+.Front {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Ship {
+  /* Logo */
+
+  width: 150px;
+  height: 39px;
+
+  font-family: "PP Cirka";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Login {
+  /* Login */
+
+  width: 150px;
+  height: 39px;
+
+  /* Title02 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  /* or 23px */
+  background-color: rgb(255, 255, 128);
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
